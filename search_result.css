@@ -32,8 +32,8 @@ body {
 
 .main {
     width: 100%;
-    height: auto;
-    background-color: #305065;
+    height: 100%;
+    background: linear-gradient(#315166, #162735);
 }
 
 .main-top {
@@ -109,7 +109,7 @@ body {
 .footer {
     width: 100%;
     height: 100px;
-    background-color: #013D56;
+    background: linear-gradient(#003D58, #00283C);
     display: flex;
     flex-direction: column;
     justify-content: center;
