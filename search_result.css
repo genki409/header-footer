@@ -38,7 +38,6 @@ body {
 
 .main-top {
     height: 590px;
-    background-color: white;
 }
 
 .main-middle {
@@ -103,7 +102,7 @@ body {
 }
 
 .fas {
-    font-size: 30px;
+    font-size: 29px;
 }
 
 .footer {
@@ -121,6 +120,7 @@ body {
     font-size: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-shadow: 3px 3px 3px black;
 }
 
 .footer > p {
