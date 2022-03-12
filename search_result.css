@@ -24,7 +24,7 @@ body {
 
 .menu {
     font-size: 17px;
-    color: white;
+    color: #FCE4E7;
     text-decoration: none;
     display: block;
     margin-left: 54px;
@@ -75,12 +75,14 @@ body {
     font-size: 30px;
     text-align: center;
     margin-top: 30px;
+    font-family: せのびゴシック;
 }
 
 .english {
     text-align: center;
     font-size: 20px;
     margin-top: 15px;
+    font-family: せのびゴッシク;
 }
 
 /* ページトップボタン */
@@ -120,6 +122,7 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     text-shadow: 3px 3px 3px black;
+    font-family: せのびゴシック;
 }
 
 .footer > p {
