@@ -23,11 +23,35 @@ body {
 }
 
 .menu {
-    font-size: 17px;
+    font-size: 16px;
     color: #FCE4E7;
     text-decoration: none;
     display: block;
     margin-left: 54px;
+}
+
+.menu2 {
+    font-size: 16px;
+    color: #FCE4E7;
+    text-decoration: none;
+    display: block;
+    margin-left: 57px;
+}
+
+.menu3 {
+    font-size: 16px;
+    color: #FCE4E7;
+    text-decoration: none;
+    display: block;
+    margin-left: 59px;
+}
+
+.menu4 {
+    font-size: 16px;
+    color: #FCE4E7;
+    text-decoration: none;
+    display: block;
+    margin-left: 60px;
 }
 
 .main {
