@@ -267,17 +267,13 @@ html { scroll-behavior: smooth;}
 /* ページトップボタン */
 
 .main-bottom {
-
     height: 100px;
 }
 
 .main-bottom > a {
     display: block;
-    /* color: #FCE4E7; */
     text-align: center;
     margin-top: 2px;
-    /* border: 3px solid #FCE4E7; */
-    /* border-radius: 100%; */
     width: 35px;
     height: 35px;
     margin: 60px auto 0 auto;
