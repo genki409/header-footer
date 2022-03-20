@@ -1,13 +1,6 @@
-/* スクロールスピード指定 */
+/* ページ内リンクの挙動をゆっくりにする */
 
-html {
-    scroll-behavior:smooth;
-}
-
-
-body {
-    height: 2320px;
-}
+html { scroll-behavior: smooth;}
 
 /* header */
 
@@ -31,7 +24,8 @@ body {
     color: #FCE4E7;
     text-decoration: none;
     display: block;
-    margin-left: 54px;
+    margin: 0 28px 0 54px;
+    transition: all 0.3s;
 }
 
 .menu2 {
@@ -39,7 +33,8 @@ body {
     color: #FCE4E7;
     text-decoration: none;
     display: block;
-    margin-left: 57px;
+    margin: 0 29px;
+    transition: all 0.3s;
 }
 
 .menu3 {
@@ -47,7 +42,8 @@ body {
     color: #FCE4E7;
     text-decoration: none;
     display: block;
-    margin-left: 59px;
+    margin: 0 30px;
+    transition: all 0.3s;
 }
 
 .menu4 {
@@ -55,14 +51,23 @@ body {
     color: #FCE4E7;
     text-decoration: none;
     display: block;
-    margin-left: 60px;
+    margin: 0 30px;
+    transition: all 0.3s;
+}
+
+.item a:hover {
+    opacity: 0.5;
+} 
+
+.container {
+    width: 1510px;
 }
 
 /* main */
 
 .main {
     width: 100%;
-    height: 90%;
+    height: 100%;
     background: linear-gradient(#315166, #162735);
 }
 
@@ -192,11 +197,11 @@ body {
 /* main-middle */
 
 .main-middle {
-    height: 1000px;
+    height: 1100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 55px 166px 0 166px;
+    margin-top: 55px;
 }
 
 .cade a {
@@ -256,10 +261,15 @@ body {
         .pagination-bottom
 -------------------------------- */
 .pagination-bottom {
-    margin-top: 45px;
+    margin-top: 0;
   }
 
 /* ページトップボタン */
+
+.main-bottom {
+
+    height: 100px;
+}
 
 .main-bottom > a {
     display: block;
@@ -270,7 +280,7 @@ body {
     /* border-radius: 100%; */
     width: 35px;
     height: 35px;
-    margin: 60px auto;
+    margin: 60px auto 0 auto;
 }
 
 .fas {
