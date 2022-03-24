@@ -2,6 +2,13 @@
 
 html { scroll-behavior: smooth;}
 
+/* フォント */
+
+@font-face {
+  font-family: "せのびレギュラー";
+  src: url("fonts/Senobi-Gothic-Regular\ 20.58.13.ttf");
+}
+
 /* header */
 
 .header {
@@ -269,7 +276,7 @@ html { scroll-behavior: smooth;}
     height: 100px;
 }
 
-.main-bottom > a {
+.main-bottom a {
     display: block;
     text-align: center;
     margin-top: 2px;
@@ -295,7 +302,7 @@ html { scroll-behavior: smooth;}
     align-items: center;
 }
 
-.footer > h3 {
+.footer h3 {
     color: white;
     font-size: 24px;
     margin-top: 10px;
@@ -304,7 +311,7 @@ html { scroll-behavior: smooth;}
     font-family: せのびゴシック;
 }
 
-.footer > p {
+.footer p {
     color: white;
     font-size: 14px;
 }
